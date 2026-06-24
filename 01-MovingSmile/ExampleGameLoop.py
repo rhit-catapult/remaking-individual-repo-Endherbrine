@@ -45,10 +45,10 @@ while True:
     pygame.draw.circle(screen, pygame.Color("Cyan"), (50,50), 30, 20)
 
     #  03: Try to draw a red circle in the middle of the screen with a radius 100
-    pygame.draw.circle(screen, "red",(400,250), 100)
+    pygame.draw.circle(screen, (128,0,0),(screen.get_width()/2,screen.get_height()/2), 100)
 
-    # TODO 04: Try to draw a yellow circle with the center exactly in the lower left corner of the screen, radius 10
-    pygame.draw.circle(screen, pygame.Color("Yellow"), (0,500), 10  )
+    # 04: Try to draw a yellow circle with the center exactly in the lower left corner of the screen, radius 10
+    pygame.draw.circle(screen, pygame.Color(255,255,0), (0,screen.get_height()), 50  )
 
     # This will make sure that things appear on our screen, without this
     # update, everything we do will not be visible!
