@@ -50,6 +50,7 @@ def main():
         screen.fill(pygame.Color("Black"))
 
         # TODO 1: Draw the circle using the screen, circle_color, circle_center, circle_radius, and circle_border_width
+        pygame.draw.circle(screen, circle_color,circle_center,circle_radius,circle_border_width)
 
         # TODO 6: Create a text image (render the text) based on the message_text with the color (122, 237, 201)
 
