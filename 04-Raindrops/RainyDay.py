@@ -92,13 +92,13 @@ def main():
         
         #Movement of the cloud
         pressed_keys = pygame.key.get_pressed()
-        if pressed_keys[pygame.K_UP]:
+        if pressed_keys[pygame.K_w]:
             cloud.y -= 5
-        if pressed_keys[pygame.K_DOWN]:
+        if pressed_keys[pygame.K_s]:
             cloud.y += 5
-        if pressed_keys[pygame.K_LEFT]:
+        if pressed_keys[pygame.K_a]:
             cloud.x -= 5
-        if pressed_keys[pygame.K_RIGHT]:
+        if pressed_keys[pygame.K_d]:
             cloud.x += 5
 
         screen.fill((255,255,255))
