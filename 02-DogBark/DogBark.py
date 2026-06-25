@@ -37,7 +37,7 @@ def main():
     funny_caption = diff_font.render("Interference", True, WHITE)
 
     # Prepare the music
-    # TODO 8: Create a Sound object from the "bark.wav" file.
+    #  8: Create a Sound object from the "bark.wav" file.
     bark_sound = pygame.mixer.Sound("bark.wav")
     
 
@@ -45,7 +45,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
-            # TODO 9: Play the music (bark) if there's a mouse click.
+            # 9: Play the music (bark) if there's a mouse click.
             if event.type == pygame.MOUSEBUTTONDOWN:
                 bark_sound.play()
 
